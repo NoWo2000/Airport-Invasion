@@ -1,0 +1,44 @@
+<airport-agent-simulator>
+<agents length="6">
+	<agent>
+		<class>checkin</class>
+		<name>counter1</name>
+		<x>10</x>
+		<y>10</y>
+	</agent>
+	<agent>
+		<class>aircraft</class>
+		<name>DLH123</name>
+		<x>20</x>
+		<y>20</y>
+		<parameter key="seats">50</parameter>
+		<parameter key="gateway">counter1</parameter>
+	</agent>
+	<agent>
+		<class>simplePax</class>
+		<name>jim</name>
+		<parameter key="flight">DLH123</parameter>
+		<x>0</x>
+		<y>0</y>
+	</agent>
+	<agent>
+		<class>simplePax</class>
+		<name>jack</name>
+		<parameter key="flight">DLH123</parameter>
+		<x>0</x>
+		<y>0</y>
+	</agent>
+	<agent>
+		<class>simpleOfficer</class>
+		<name>johnMclain</name>
+		<x>-10</x>
+		<y>-10</y>
+	</agent>
+	<agent>
+		<class>braggart</class>
+		<name>BadJoe</name>
+		<x>0</x>
+		<y>0</y>
+	</agent>
+</agents>
+</airport-agent-simulator>
