@@ -31,11 +31,13 @@ import aas.controller.export.GeoJsonExport;
 
 /**
  * Main class, loads and initializes the application
- * 
- * @author schier
  *
+ * @author schier
  */
 public class AirportAgentSimulation {
+	/*
+	@startuml
+	 */
 	
 	private static final Logger LOGGER = Logger.getLogger(AirportAgentSimulation.class.getName());
 	
@@ -43,7 +45,8 @@ public class AirportAgentSimulation {
 
 	/**
 	 * main function
-	 * @param args - can be empty or with the config file as argument 
+	 *
+	 * @param args - can be empty or with the config file as argument
 	 */
 	public static void main(String[] args) {
 		
